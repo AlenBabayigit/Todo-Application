@@ -1,18 +1,73 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Application</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="todo-row">
+            <header class="card-header">
+                <h1>Todo Application</h1>
+            </header>
 
-    
+            <div class="todo-col">
+                <form id="todo-form" name="form">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control" type="text" name="todo" id = "todo" placeholder="Enter your todo here">
+                        </div>
+                    </div>
+                    <button type="submit" class="button button-blue">Add Todo</button>
+                </form>
+            </div>
+
+            <div class="todo-col">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Evi temizle
+                    </li>
+                    <li class="list-group-item">
+                        Siteyi yaz
+                    </li>
+                    <li class="list-group-item">
+                        Imagine Dragons'un yeni albümünü dinle
+                    </li>
+
+                </ul>
+                <hr>
+                <button type="button" id="clear-todos" class="button button-clear">Clear Todos</button>
+                
+            </div>
 
 
+            <footer>
+                <!-- Copyright Section -->
+                <p>Copyright © 2022 Alen Babayiğit. All rights reserved.</p>
+                <br>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/alen-babayigit/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/alenbabayigit/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/AlenBabayigit" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </li>
+                </ul>
+            </footer>
+
+        </div>        
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
