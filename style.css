@@ -10,14 +10,20 @@ body {
     color: whitesmoke;
 }
 
+header h1 {
+    font-size: 3rem;
+}
+
 .container {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: auto auto;
     padding: 2rem;
+    /* padding-bottom: 0px; */
     width: calc(70% + 11rem);
-    height: 1060px;
+    
+    height: 1056px;
     background-color: #161720;
 }
 
@@ -27,11 +33,19 @@ body {
     
 }
 
-.todo-col {
+#input-col {
     background-color: #1a1e27;
-    min-height: 35%;
+    min-height: 15%;
     width: calc(250px + 45vw);
     margin: 1.5rem;
+}
+
+#todo-col {
+    background-color: #1a1e27;
+    min-height: 60%;
+    width: calc(250px + 45vw);
+    margin: 1.5rem;
+    overflow: auto;
 }
 
 
@@ -41,29 +55,63 @@ body {
     margin-top: 1.25rem;
     padding: 0.5rem 1rem;
     border-radius: 7px;
-    text-decoration: none;   
+    text-decoration: none;
+    color: whitesmoke;
 }
 .button:hover {
-    color: whitesmoke;
+    color: black;
     font-size: medium;
+    cursor: pointer;
 }
 
 .button-blue {
-    background-color: #324f94;  
-}
-.button-blue:hover {
     background-color: #1b2c53;
 }
+.button-blue:hover {
+    background-color: #324f94;
+}
 
-
+.button-filter {
+    background-color: #1b531b;
+}
+.button-filter:hover {
+    background-color: #3a9432;
+}
 
 .button-clear {
     background-color: #7c0606;
-    color: whitesmoke;
 }
 .button-clear:hover {
-    background-color: #cc0000;
+    background-color: #aa0000;
 }
+
+
+/* Forms */
+.form-control {
+    font-size: x-large;
+    width: 85%;
+    height: 2.5rem;
+    padding: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+}
+
+
+
+/* Todo List */
+
+.list-group {
+    list-style: none;
+}
+
+.list-group-item {
+    font-size: x-large;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    margin: 0.25rem auto;
+    padding: 0.5rem;
+    
+}
+
 
 
 /* Footer Section */
@@ -73,7 +121,6 @@ footer {
     width: calc(250px + 45vw);
     margin: 1.5rem;
     padding: 1rem;
-    
 }
 
 footer ul {

@@ -18,18 +18,20 @@
                 <h1>Todo Application</h1>
             </header>
 
-            <div class="todo-col">
-                <form id="todo-form" name="form">
+            <div id="input-col">
+                <form id="todo-form" name="form" autocomplete="off">
                     <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <input class="form-control" type="text" name="todo" id = "todo" placeholder="Enter your todo here">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="todo" id="todo-input" placeholder="Enter your todo here">
                         </div>
                     </div>
                     <button type="submit" class="button button-blue">Add Todo</button>
+                    <button type="button" id="filter-todos" class="button button-filter">Filter Todo</button>
+                    <button type="button" id="clear-todos" class="button button-clear">Clear Todos</button>
                 </form>
             </div>
 
-            <div class="todo-col">
+            <div id="todo-col">
                 <ul class="list-group">
                     <li class="list-group-item">
                         Evi temizle
@@ -38,13 +40,25 @@
                         Siteyi yaz
                     </li>
                     <li class="list-group-item">
-                        Imagine Dragons'un yeni albümünü dinle
+                        Imagine Dragons'un yeni albümünü dinle sldkhglkjdshgljdsj asflahsfj asljfhasljhfsajhf asfsakjfhsakjfhsakjhfsa    askjfhsakjfhksajhfkj asfkhsajfhsak
                     </li>
-
-                </ul>
-                <hr>
-                <button type="button" id="clear-todos" class="button button-clear">Clear Todos</button>
-                
+                    
+                    <li class="list-group-item">
+                        Imagine Dragons'un yeni albümünü dinle sldkhglkjdshgljdsj asflahsfj asljfhasljhfsajhf asfsakjfhsakjfhsakjhfsa    askjfhsakjfhksajhfkj asfkhsajfhsak
+                    </li>
+                    <li class="list-group-item">
+                        Imagine Dragons'un yeni albümünü dinle sldkhglkjdshgljdsj asflahsfj asljfhasljhfsajhf asfsakjfhsakjfhsakjhfsa    askjfhsakjfhksajhfkj asfkhsajfhsak
+                    </li>
+                    <li class="list-group-item">
+                        Imagine Dragons'un yeni albümünü dinle sldkhglkjdshgljdsj asflahsfj asljfhasljhfsajhf asfsakjfhsakjfhsakjhfsa    askjfhsakjfhksajhfkj asfkhsajfhsak
+                    </li>
+                    <li class="list-group-item">
+                        Imagine Dragons'un yeni albümünü dinle sldkhglkjdshgljdsj asflahsfj asljfhasljhfsajhf asfsakjfhsakjfhsakjhfsa    askjfhsakjfhksajhfkj asfkhsajfhsak
+                    </li>
+                    <li class="list-group-item">
+                        Imagine Dragons'un yeni albümünü dinle sldkhglkjdshgljdsj asflahsfj asljfhasljhfsajhf asfsakjfhsakjfhsakjhfsa    askjfhsakjfhksajhfkj asfkhsajfhsak
+                    </li>
+                </ul>              
             </div>
 
 
@@ -52,6 +66,7 @@
                 <!-- Copyright Section -->
                 <p>Copyright © 2022 Alen Babayiğit. All rights reserved.</p>
                 <br>
+                <!-- Social Links Section -->
                 <ul>
                     <li>
                         <a href="https://www.linkedin.com/in/alen-babayigit/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
@@ -64,7 +79,6 @@
                     </li>
                 </ul>
             </footer>
-
         </div>        
     </div>
     <script src="script.js"></script>
