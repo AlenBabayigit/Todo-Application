@@ -104,6 +104,7 @@ header h1 {
 }
 
 .list-group-item {
+    overflow: auto;
     font-size: x-large;
     border: 2px solid whitesmoke;
     border-radius: 7px;
@@ -112,6 +113,16 @@ header h1 {
     
 }
 
+.delete-item {
+    padding: 0px 10px;
+
+    font-size: xx-large;
+    float: right;
+    color: #7c0606;
+}
+.delete-item:hover {
+    color: #aa0000;
+}
 
 
 /* Footer Section */

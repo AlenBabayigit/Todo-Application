@@ -16,13 +16,23 @@ function addEventListenerToAllElements() {
     form.addEventListener("submit", addTodo);
 }
 
+// Functions
 
 function addTodo(e) {
-
-
+    const todoText = formInput.value.trim();
+    
+    // Creating the <li> element.
+    const listItem = document.createElement("li");
+    listItem.className = "list-group-item"
+    listItem.innerHTML = `${todoText}
+    <a href="#" class="delete-item">
+        <i class="fa fa-remove"></i>
+    </a>`
+    // Adding <li> item to the list.
+    todoList.appendChild(listItem);
 
     // Preventing submit button to refresh the page.
     e.preventDefault();
-    
+    // Clearing the input section.
     formInput.value = "";
 }
