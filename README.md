@@ -1,5 +1,6 @@
 # Todo-Application
 A basic todo web application created with using HTML, CSS and JavaScript, by Alen Babayiğit.<br>
+<hr>https://alenbabayigit.github.io/Todo-Application/<hr>
 It has features such as:
 <ol>
     <li>Add todo.</li>
@@ -10,5 +11,4 @@ It has features such as:
     <li>Remove all todos.</li>
 <ol>
 
-<hr>
-https://alenbabayigit.github.io/Todo-Application/
+
