@@ -10,5 +10,5 @@ It has features such as:
     <li>Remove all todos.</li>
 <ol>
 
-
+<hr>
 https://alenbabayigit.github.io/Todo-Application/
