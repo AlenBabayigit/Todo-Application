@@ -48,6 +48,18 @@ header h1 {
     overflow: auto;
 }
 
+/* Alerts */ 
+
+.alert-danger {
+    color:#aa0000;
+    margin-top: 5px;
+}
+
+.alert-success {
+    color: #1b531b;
+    margin-top: 5px;
+}
+
 
 /* Buttons */
 
@@ -115,13 +127,17 @@ header h1 {
 
 .delete-item {
     padding: 0px 10px;
-
     font-size: xx-large;
     float: right;
     color: #7c0606;
 }
 .delete-item:hover {
     color: #aa0000;
+    cursor:default;
+}
+
+.fa-remove:hover {
+    cursor: pointer;
 }
 
 
