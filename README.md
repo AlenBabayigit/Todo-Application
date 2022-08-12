@@ -9,4 +9,3 @@ It has features such as:
     <li>Filter todos.</li>
     <li>Remove all todos.</li>
 <ol>
-f
