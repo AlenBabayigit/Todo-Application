@@ -179,5 +179,6 @@ function deleteAllTodos(e) {
             todoList.removeChild(todoList.firstElementChild);
         }
         localStorage.removeItem("todos");
+        showAlert("alert-success", "All todos deleted successfully.");
     }
 }
