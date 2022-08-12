@@ -1,6 +1,6 @@
 # Todo-Application
 A basic todo web application created by using HTML, CSS and JavaScript <br>
-It has features such as: <br>
+It has features such as:
 <ol>
     <li>Add todo.</li>
     <li>Remove todo</li>
