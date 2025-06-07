@@ -1,6 +1,6 @@
 # Todo-Application
 A basic todo web application created with using HTML, CSS and JavaScript, by Alen Babayiğit.<br>
-<hr>https://alenbabayigit.github.io/Todo-Application/<hr>
+<hr>https://todo.alenbabayigit.com<hr>
 It has features such as:
 <ol>
     <li>Add todo.</li>
